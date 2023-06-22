@@ -1,0 +1,45 @@
+form{
+    display: flex;
+    flex-direction:column;
+    border: 2px solid black;
+    height: 32rem;
+    width: 25rem;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px black;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:rgb(193, 193, 193);
+    position: absolute;
+    
+}
+body{
+    background-color: antiquewhite;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 55rem;
+    
+}
+
+input{
+    height: 1.8rem;
+    border-radius: 3px;
+}
+.btn{
+    margin-top: 1.5rem;
+    height:2.5rem ;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: greenyellow;
+    cursor: pointer;
+    font-size: 18px;
+}
+.btn:hover{
+    background-color: green;
+}
+#myvideo{
+    position: absolute;
+}
+
